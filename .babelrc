@@ -1,0 +1,8 @@
+/*
+  ./.babelrc
+*/
+{
+  "presets":[
+    "flow", "es2015", "react"
+  ]
+}

@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - node
+cache:
+  yarn: true
+  directories:
+    - node_modules
+sudo: false
+install:
+  - yarn install
+script: yarn run travis-build
+after_script:
+  - ls -al
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: build
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
