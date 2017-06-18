@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "index.js",
+    "tools/webpack/",
+    "!tools/webpack/webpack.server.babel.js",
+    "src/server.js",
+    "src/utils/Html.js",
+    "package.json",
+    "nodemon.json"
+  ]
+}
