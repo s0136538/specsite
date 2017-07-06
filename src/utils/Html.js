@@ -68,7 +68,7 @@ const Html = ({ store, htmlContent }: Props) => {
       </head>
       <body>
         <div
-          id="react-view"
+          id="root"
           // Rendering the route, which passed from server-side
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{ __html: htmlContent || '' }}

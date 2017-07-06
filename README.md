@@ -65,7 +65,7 @@ This is the technology stack that we're working with to develop the "specsite ap
   
   - See also [WikiPedia](https://en.wikipedia.org/wiki/Material_Design)
   
-- [react-md](https://react-md.mlaursen.com)
+- [material-ui](http://www.material-ui.com/#/)
   Uses the Google Material Design components and React to enable a
   "material design styled website"
 
@@ -98,6 +98,20 @@ This is the technology stack that we're working with to develop the "specsite ap
 - [ESLint](http://eslint.org)
 
   > The pluggable linting utility for JavaScript and JSX
+  
+## Editor
+
+### Atom
+
+One very good editor that you could use for the development of this product is Atom,
+which is an open source editor that is very popular in the frontend dev community.
+For mac users its easy to add some interesting plugins to Atom (after you've installed)
+Atom itself you can run commands (in the Terminal) like:
+
+- eslint plugin:  
+  `apm install linter-eslint`
+  
+### IntelliJ Idea
 
 ## How to run
 
